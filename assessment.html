@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Assessment</title>
+     <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+      <h1>TEXT</h1>
+        <p>
+        <b>Lorem</b> ipsum dolor sit amet, consectetur adipiscing elit. Fusce at sodales orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin vitae malesuada quam. Duis nisi est, posuere nec molestie non, aliquet sit amet metus. Praesent faucibus quam dui, id sodales ligula pulvinar sed.
+        <!-- <p class="secondParagraph"> -->
+          <blockquote cite="https://www.lipsum.com/feed/html">
+            <em><b>Maecenas</b> vitae mi in ipsum viverra dapibus. Duis placerat molestie sapien, ac convallis justo convallis eu. In faucibus a metus id dictum. Sed eget lacinia justo. Vivamus eget risus aliquet, congue magna id, vestibulum turpis. Phasellus sit amet nunc urna. Nulla eu porta justo. Morbi massa felis, imperdiet in sodales maximus, semper ut dui.
+          </em></blockquote>
+        <!-- </p> -->
+
+        <p><b>Nulla</b> et lectus vestibulum urna fringilla ultrices. Phasellus
+eu tellus sit amet tortor gravida placerat. Integer sapien est, iaculis in, pretium
+quis, viverra ac, nunc. Praesent eget sem vel leo ultrices bibendum. Aenean
+faucibus. Morbi dolor null</p>
+        </p>
+    </div>
+    <!-- Table section Start -->
+    <div>
+      <h1>Table</h1>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="6">Scores by quater</th>
+          </tr>
+          <tr>
+            <th rowspan="2">Team Name</th>
+            <th colspan="2">First Half</th>
+            <th colspan="2">Second Half</th>
+            <th rowspan="2">Final</th>
+          </tr>
+          <tr>
+            <th>Q1</th>
+            <th >Q2</th>
+            <th >Q3</th>
+            <th>Q4</th>
+          </tr>
+        </thead>
+        <tbody>
+         <tr>
+           <td>Denver</td>
+       		 <td>14</td>
+           <td>7</td>
+           <td>10</td>
+           <td>8</td>
+           <td>17</td>
+        </tr>
+        <tr>
+          <td>Chicago</td>
+          <td>0</td>
+          <td>7</td>
+          <td>0</td>
+          <td>6</td>
+          <td>13</td>
+       </tr>
+      </tbody>
+        <tfoot>
+          <td>Total</td>
+          <td>14</td>
+          <td>14</td>
+          <td>10</td>
+          <td>14</td>
+          <td>30</td>
+        </tfoot>
+      </table>
+    </div>
+    <!-- Table section End -->
+
+    <!-- List Section Start  -->
+    <div>
+    <h1>LIST</h1>
+
+    <ul>
+      <li>
+          <img width="100" height="100" src="http://www.stickpng.com/assets/images/580b585b2edbce24c47b2b21.png" alt="Denver Broncos Logo">
+          <br><a href="https://www.denverbroncos.com/"> Denver Broncos</a>
+          <ul>
+            <li>Coach: Gary Kubiak</li>
+            <li>QB
+              <ol>
+                <li>Brock Os</li>
+                <li>Trevor Siem</li>
+                <li>Peyton Manning</li>
+              </ol>
+            </li>
+          </ul>
+      </li>
+      <li>
+          <img width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Chicago_Bears_logo.svg/1280px-Chicago_Bears_logo.svg.png" alt="Chicago Bears Logo">
+          <br><a href="https://www.chicagobears.com/"> Chicago Bears</a>
+          <ul>
+            <li>Coach: Gary Kubiak</li>
+            <li>QB
+              <ol>
+                <li>John Os</li>
+                <li>Tom Adams</li>
+              </ol>
+            </li>
+          </ul>
+      </li>
+    </ul>
+    </div>
+    <!-- List Section End  -->
+
+    <!-- Form section Start  -->
+    <h1>FORM</h1>
+
+    <form action="/action_page.php">
+      <label for="firstName">First:</label>
+      <input type="text" id="firstName" value="Bob">
+      <label for="lasttName">Last:</label>
+      <input type="text" id="lasttName" name="Dobbs" value="Dobbs"><br><br>
+      Favorite Sport:
+      <br>
+      <select>
+        <option value="Soccer">Soccer</option>
+        <option value="Basketball">Basketball</option>
+        <option value="Football">Football</option>
+      </select>
+      <br>
+      I have:
+      <input type="checkbox" name="Attended" value="Attended" checked="checked"> Attended
+      <input type="checkbox" name="Played" value="Played" checked="checked">
+      Played
+      <input type="checkbox" name="Played" value="Played" checked="checked">
+      Coached
+      <input type="checkbox" name="Bet" value="Bet" >
+      Bet on this sport
+      <br>
+      For this sport I prefer the:
+      <input type="radio" name="sports" value="amateur" checked="checked"> Amateur
+      <input type="radio" name="sports" value="College"> College
+      <input type="radio" name="sports" value="Professional" > Professional
+      <br>
+      <br>
+      <input type="submit" value="Submit Query">
+    </form>
+    <!-- Form section End  -->
+  </body>
+</html>
