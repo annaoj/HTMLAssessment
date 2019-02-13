@@ -35,16 +35,6 @@ blockquote{
 display: none;
 }
 
-#teamRoster>li:first-child{
-  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-#teamRoster>li:last-child{
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
-  background-repeat: no-repeat;
-  z-index: -1;
-}
 a:hover {
   color: #E1A3E2;
   text-decoration: none;
@@ -62,15 +52,31 @@ a:hover {
   font-weight: bold;
 }
 
-/* #teamRoster::after {
+ul> li:nth-child(1)::after {
   content: "";
-  background-color: #ededed ;
-   opacity: 0.7;
-  top: 10;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  display: block;
   position: absolute;
-  z-index: -1;
-} */
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-repeat: no-repeat;
+  opacity: 0.05;
+  top: 550px;
+  left: 40px;
+  bottom: 50px;
+}
+
+ul> li:nth-child(2)::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-repeat: no-repeat;
+  opacity: 0.05;
+  top: 730px;
+  left: 40px;
 }
